@@ -89,5 +89,16 @@ console.log(bookList);
 
 ```js
 // solution required
+
+function add (book, bookName) {
+  return [...book, bookName];
+}
+
+
+function remove (book, bookName) {
+  return book.filter((x)=> x!= bookName); 
+}
+
+
 ```
 </section>
